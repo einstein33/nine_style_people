@@ -1,7 +1,3 @@
-# PHP和原生JS实现九型人格在线测试
-
-PHP和原生JS实现九型人格在线测试，已有题库评定版144题。https://blog.csdn.net/dreamstone_xiaoqw/article/details/83903609
-
 # 九型人格测试（144题评定版开源代码）
 
 * author yixzm
