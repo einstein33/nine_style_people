@@ -4,7 +4,7 @@
 var g_q_count = 144;
 var g_qid = 0;
 var g_answer = Array();
-var api_host = "http://debug.yixzm.cn/opensource/nine_style_people/public/index.php";
+var api_host = location.href + "/opensource/nine_style_people/public/index.php";
 
 /**
  * 
