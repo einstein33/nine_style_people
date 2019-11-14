@@ -1,16 +1,21 @@
 # 九型人格测试（144题评定版开源代码）
 
-* author yixzm
-* mail dream@yixzm.cn
-* site http://www.yixzm.cn
+>
+@author: yixzm
+@mail:   dream@yixzm.cn
+@site:   http://www.yixzm.cn
+@blog:
+* 源码讲解：https://blog.csdn.net/dreamstone_xiaoqw/article/details/90046498
+* 原版说明：https://blog.csdn.net/dreamstone_xiaoqw/article/details/83903609
 
-# 开源版演示地址：
+# 开源版部署演示：
 
-http://www.yixzm.cn/opensource/nine_style_people/public/index.php
+http://www.scsxghw.com/nine/
 
 # 更新日志：
 
-[2019-5-9] 九型人格开源版裁剪
+[2019-11-14] 部分链接修正，修复绿色版请求无法正常访问
+[2019-05-09] 九型人格开源版裁剪
 
 # 运行环境
 
