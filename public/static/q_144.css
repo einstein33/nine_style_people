@@ -1,12 +1,26 @@
+/**
+* 九型人格测试（144题评定版开源代码）
+* 
+* 【版权声明】
+* 禁止用于商业用途，如需作商业用途，请务必与素材资源的原作者联系，否则责任自负。
+* 
+* @author: yixzm
+* @mail:   dream@yixzm.cn
+* @site:   http://www.yixzm.cn
+* @blog:
+* 
+* 源码讲解：https://blog.csdn.net/dreamstone_xiaoqw/article/details/90046498
+* 原版说明：https://blog.csdn.net/dreamstone_xiaoqw/article/details/83903609
+*/
 html {
     height: 95%;
 }
 
 body {
-    background-color:#f5f6f7;
-    font-family:'Comic Sans MS','微软雅黑',serif,sans-serif,fantasy,cursive;
+    background-color: #f5f6f7;
+    font-family: 'Comic Sans MS', '微软雅黑', serif, sans-serif, fantasy, cursive;
     height: 100%;
-    margin:0px;
+    margin: 0px;
 }
 
 hr {
@@ -16,20 +30,20 @@ hr {
 }
 
 nav {
-    background-color:white;
-    height:1.8rem;
+    background-color: white;
+    height: 1.8rem;
     padding: 0.1rem 0;
 }
 
 ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-    word-break:break-all;
-    text-align:justify;
+    word-break: break-all;
+    text-align: justify;
 }
 
 .btn {
@@ -61,17 +75,18 @@ li {
     transform: translateY(4px);
 }
 
-.href{
+.href {
     border-radius: 15px;
-    color:#007bff;
+    color: #007bff;
     cursor: pointer;
     letter-spacing: 0.1px;
-    padding:0px 0.618rem;
+    padding: 0px 0.618rem;
     white-space: nowrap;
 }
-.href:hover{
-    color:red;
-    font-weight:bold;
+
+.href:hover {
+    color: red;
+    font-weight: bold;
 }
 
 .href:active {
@@ -82,12 +97,12 @@ li {
 
 .social {
     padding: 0 1.73rem 1.618rem 1.73rem;
-    margin:0px 2%;
-    word-break:hyphenate;
-    text-align:left;
-    background-color:white;
-    vertical-align:top;
-    min-width:280px;
+    margin: 0px 2%;
+    word-break: hyphenate;
+    text-align: left;
+    background-color: white;
+    vertical-align: top;
+    min-width: 280px;
 }
 
 #main {
@@ -95,99 +110,137 @@ li {
 }
 
 body {
-	-webkit-user-select: none;
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
-hr{height:1px;border:none;border-top:2px solid #f5f6f7;}
-ul { list-style-type:none; margin:0; padding:0;}
+hr {
+    height: 1px;
+    border: none;
+    border-top: 2px solid #f5f6f7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 pre {
-	font-family: "微软雅黑";
-	font-size: 1.01rem;
+    font-family: "微软雅黑";
+    font-size: 1.01rem;
 }
 
-#head{background-color:#232E3c;margin:0px;color:white;padding:0.108rem 0px;width:100%;min-width:320px;}
-	
-.delw{padding:0px 0px;}
-.addw{padding:0px 12%;}
+#head {
+    background-color: #232E3c;
+    margin: 0px;
+    color: white;
+    padding: 0.108rem 0px;
+    width: 100%;
+    min-width: 320px;
+}
+
+.delw {
+    padding: 0px 0px;
+}
+
+.addw {
+    padding: 0px 12%;
+}
 
 .intro {
-	background-color:lavender;
-	margin:2%;
+    background-color: lavender;
+    margin: 2%;
 }
 
-.question{
-	font-size: 1.2rem;
-	/* line-height: 3rem; */
-	text-align: justify;
+.question {
+    font-size: 1.2rem;
+    /* line-height: 3rem; */
+    text-align: justify;
     word-wrap: break-word;
 }
 
 .radio {
-	margin: 20px;
+    margin: 20px;
 }
 
 #progress_bar {
-	width: 95%;
+    width: 95%;
 }
 
-#question_number{
-	text-align: left;
-	font-size: 1.2rem;
-	padding:1.218rem 1.618rem;
+#question_number {
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 1.218rem 1.618rem;
 }
 
 #start_testing {
-	font-size: 2rem;
-	/* background-color: aliceblue; */
-	padding: 1rem 1.5rem;
-	border: 5px solid#007bff!important;
+    font-size: 2rem;
+    /* background-color: aliceblue; */
+    padding: 1rem 1.5rem;
+    border: 5px solid#007bff !important;
 }
 
 @media (min-width:878px) {
-	#main{margin:0px;padding:0px 1.618rem;min-width:380px;text-align:center;}
+    #main {
+        margin: 0px;
+        padding: 0px 1.618rem;
+        min-width: 380px;
+        text-align: center;
+    }
 
-	#question_board {
-		text-align: center;
-		padding: 1.5rem 27%;
-	}
+    #question_board {
+        text-align: center;
+        padding: 1.5rem 27%;
+    }
 
-	.intro{
-		padding:1.218rem 1.618rem;
-		min-width:300px;
-		word-break:break-all;
-		text-align:justify;
-	}
+    .intro {
+        padding: 1.218rem 1.618rem;
+        min-width: 300px;
+        word-break: break-all;
+        text-align: justify;
+    }
 
-	#stylePicture {
-		height: 361px;
-		width: 50%;
-	}
-	
-	#styleInfo {
-		height: 361px;
-		width: 10%;
-	}
+    #stylePicture {
+        height: 361px;
+        width: 50%;
+    }
+
+    #styleInfo {
+        height: 361px;
+        width: 10%;
+    }
 }
+
 @media (max-width:878px) {
-	#main{margin:0px 1.1%;padding:0px 0px;min-width:300px;text-align:center;}
+    #main {
+        margin: 0px 1.1%;
+        padding: 0px 0px;
+        min-width: 300px;
+        text-align: center;
+    }
 
-	#question_board {
-		text-align: center;
-		padding: 1.5rem 2%;
-	}
+    #question_board {
+        text-align: center;
+        padding: 1.5rem 2%;
+    }
 
-	#head {
-		margin-top: 0.121rem;
-	}
-    
+    #head {
+        margin-top: 0.121rem;
+    }
+
     #stylePicture {
         height: 361px;
         width: 361px;
     }
 
-	.intro{display:inline-block; padding:2.218rem 1.618rem;min-width:300px;word-break:break-all;text-align:justify;}
+    .intro {
+        display: inline-block;
+        padding: 2.218rem 1.618rem;
+        min-width: 300px;
+        word-break: break-all;
+        text-align: justify;
+    }
 }

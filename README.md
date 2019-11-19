@@ -1,5 +1,8 @@
 # 九型人格测试（144题评定版开源代码）
 
+【版权声明】
+禁止用于商业用途，如需作商业用途，请务必与素材资源的原作者联系，否则责任自负。
+
 >
 @author: yixzm
 @mail:   dream@yixzm.cn
@@ -20,3 +23,5 @@ http://www.scsxghw.com/nine/
 # 运行环境
 
 LAP：Linux安装Apache，支持PHP运行即可。
+
+Copyright © 2019 yixzm. All rights reserved.

@@ -1,6 +1,17 @@
 /**
- * 九型人格在线测试JS文件（开源版）
- */
+* 九型人格测试（144题评定版开源代码）
+* 
+* 【版权声明】
+* 禁止用于商业用途，如需作商业用途，请务必与素材资源的原作者联系，否则责任自负。
+* 
+* @author: yixzm
+* @mail:   dream@yixzm.cn
+* @site:   http://www.yixzm.cn
+* @blog:
+* 
+* 源码讲解：https://blog.csdn.net/dreamstone_xiaoqw/article/details/90046498
+* 原版说明：https://blog.csdn.net/dreamstone_xiaoqw/article/details/83903609
+*/
 var g_q_count = 144;
 var g_qid = 0;
 var g_answer = Array();
@@ -12,34 +23,34 @@ var api_host = "/nine/public/index.php";
  * @description home.js, for /app/welcom/view/homme.html
  */
 function $(id) {
-	return document.getElementById(id);
+    return document.getElementById(id);
 }
 
 function $$(className) {
-	return document.getElementsByClassName(className);
+    return document.getElementsByClassName(className);
 }
 
 function ajax(req, uri, func, body) {
-	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.onreadystatechange = function () {
-		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-			//TODO response增加鉴权code
-			func(xmlhttp.responseText);
-		}
-	}
-	//uri增加Code字段
-	xmlhttp.open(req, uri, true);
-	if (req == "POST") {
-		xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	}
-	xmlhttp.send(body);
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            //TODO response增加鉴权code
+            func(xmlhttp.responseText);
+        }
+    }
+    //uri增加Code字段
+    xmlhttp.open(req, uri, true);
+    if (req == "POST") {
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    }
+    xmlhttp.send(body);
 }
 
 if ($("copyright")) {
-	var uri = "http://www.yixzm.cn//welcom/api/load_copyright";
-	ajax("GET", uri, function(response) {
-		$("copyright").innerHTML = response;
-	}, null);
+    var uri = "http://www.yixzm.cn//welcom/api/load_copyright";
+    ajax("GET", uri, function (response) {
+        $("copyright").innerHTML = response;
+    }, null);
 }
 
 
@@ -176,7 +187,7 @@ function style_people_init() {
     $("start_testing").onclick = function () {
         $('start_testing').style.display = "none";
         $('question_board').style.textAlign = "left";
-        reset_time(Number(45*60));
+        reset_time(Number(45 * 60));
         get_9style_people_question();
     }
 }
