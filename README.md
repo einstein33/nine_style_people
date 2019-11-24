@@ -11,9 +11,9 @@
 * 源码讲解：https://blog.csdn.net/dreamstone_xiaoqw/article/details/90046498
 * 原版说明：https://blog.csdn.net/dreamstone_xiaoqw/article/details/83903609
 
-# 开源版部署演示：
+# 访问入口：
 
-http://www.scsxghw.com/nine/
+http://localhost/nine/
 
 # 更新日志：
 
